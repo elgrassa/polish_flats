@@ -22,7 +22,9 @@ files = [
 
 # Loop through the files and display them
 for file in files:
+    display_name = file.replace('.csv', '')
+    display_name_formatted = display_name.replace('_', ' ')
     url = f"https://raw.githubusercontent.com/elgrassa/Data-engineering-professional-certificate/main/dbt_data_for_widgets_in_csv/{file}"
-    st.subheader(f"Displaying: {file}")
-    data = pd.read_csv(url)  # Load the data from the CSV URL
-    st.dataframe(data)  # Display data as a table in the app
+    st.subheader(f"{display_name_formatted}")
+    data = pd.read_csv(url)  
+    st.dataframe(data)
