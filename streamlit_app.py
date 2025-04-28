@@ -11,6 +11,8 @@ st.write("Let's start building! For help and inspiration, head over to [docs.str
 # List of CSV files to be loaded from GitHub (add links to your files)
 files = [
     "comparison_of_sale_and_rent_market_activity_by_city.csv",
+    "rent_market_activity_by_rooms_city_price_percentiles.csv",
+    "sale_market_activity_by_rooms_city_price_percentiles.csv",
     "rent_market_activity_by_city_with_average_price_and_price_percentiles.csv",
     "rent_market_activity_by_city_with_average_rent_and_price_percentiles.csv",
     "rent_price_dynamics_by_city.csv",
@@ -19,7 +21,6 @@ files = [
     "sale_market_listings_count_by_city_with_price_percentiles.csv",
     "top_15_cities_by_rental_price_with_percentiles.csv"
 ]
-
 # Loop through the files and display them
 for file in files:
     display_name = file.replace('.csv', '')
