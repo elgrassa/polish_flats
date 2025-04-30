@@ -18,6 +18,7 @@ st.write("""
 
 st.write("""
     **Note:** 
+    All prices are in polish Zloty (95 percentile - means pnly 5 percent of data is higher).
     Data for some cities, such as Bydgoszcz, Gdynia, and Szczecin, is limited or missing due to their smaller real estate markets. 
     As a result, there may be gaps or differences in the graphs for these cities.
 """)
