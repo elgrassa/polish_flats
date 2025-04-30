@@ -16,6 +16,12 @@ st.write("""
     Additionally, various visualizations are available to help you better understand trends and relationships in the data.
     """)
 
+st.write("""
+    **Note:** 
+    Data for some cities, such as Bydgoszcz, Gdynia, and Szczecin, is limited or missing due to their smaller real estate markets. 
+    As a result, there may be gaps or differences in the graphs for these cities.
+""")
+
 # CSV data for widgets
 files = [
     "comparison_of_sale_and_rent_market_activity_by_city.csv",
