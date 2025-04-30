@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Title of the app
-st.title("🎈 My new app")
+st.title("🎈 Polish flats and houses rentals and sales market analysis")
 
 # Welcome text
 st.write("Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
