@@ -5,7 +5,14 @@ import pandas as pd
 st.title("🎈 Polish flats and houses rent and sales market analysis")
 
 # Welcome text
-st.write("Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
+st.write(    """
+    Welcome to the Polish Flats and Houses Rent and Sales Market Analysis App! 
+    This app provides detailed insights into the rent and sales market across various cities in Poland. 
+    You can analyze data related to market activity, room counts, price percentiles, and much more.
+
+    Widgets are provided for easy navigation and allow you to sort and filter the data interactively. 
+    Additionally, various visualizations are available to help you better understand trends and relationships in the data.
+    """)
 
 # CSV data for widgets
 # List of CSV files to be loaded from GitHub (add links to your files)
